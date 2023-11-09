@@ -8,7 +8,7 @@ window.addEventListener("load", async function () {
       }
       for (let i = 0; i < B.length; i++) {
          // adding a class for every server on the servers list, so we can add a background color to it
-         // otherwise the trasnperency of the game image will show the bg-image 
+         // otherwise the opacity of the game image will show the bg-image 
         B[i].classList.add('server-page-fix' );
       }
     }, 100); // works well for me
