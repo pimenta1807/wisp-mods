@@ -1,0 +1,15 @@
+.bg-image {
+    /* this fits to my environment, but I don't know if it is the best solution for you */
+    background-size: cover; 
+    max-height: 100vh;
+    /* set a min-height so when the page content is small, the footer doest cut the image. */
+    min-height: 75vh;
+    /* replace with you url from (rember to select the CSS option) https://base64.guru/converter/encode/image/svg */
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJ.............");
+}
+.server-page-fix {
+    /* it will create a background behind every server so the opacity of the game image will show this color*/
+    /* not the background-image from bg-image */
+    /* Should be the same as the body/color! */
+    background-color: #1c1c1c;
+}
